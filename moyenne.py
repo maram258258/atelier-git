@@ -1,9 +1,11 @@
 n1=float(input("donner la premier note:"))
 n2=float(input("donner la dexieme note:"))
-n3=float(input("donner la troisieme  note:"))
+n3=float(input("donner la troisieme:"))
+code= input("donner le code:")
+nom= input("donner le nom:")
+prenom= input("donner le prenom:")
 moy=(n1+n2+n3)/3
 print("la moyenne est :",moy)
-#########################
 if moy<10:
     print("Mention: Insuffisant")
 elif moy<12:
@@ -14,4 +16,8 @@ elif moy<16:
     print(" Mention: Bien ")
 else:
     print("Mention: Tres bien ")
+print("code:",code)
+print("nom:",nom)
+print("prenom:",prenom) 
+    
     
