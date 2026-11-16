@@ -24,6 +24,7 @@ else:
 print("code:",code)
 print("nom:",nom)
 print("prenom:",prenom)
+print("fat7iiii")
  
 def mediane(notes):
     tri=sorted(notes)
